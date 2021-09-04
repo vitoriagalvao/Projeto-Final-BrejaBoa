@@ -1,0 +1,173 @@
+[
+    {
+      "id": "F234324kjn",
+      "name": "Budweiser",
+      "harmonizing":"hambúrguer clássico, presunto cozido e mix de castanhas",
+      "type": "American Lager",
+      "alcohol content": "5% vol",
+      "IBU": "10",
+      "ingredients": "água, malte, arroz e lúpulo",
+       "allergens": "contém cevada e glúten"
+   },
+   
+   {
+    "id": "G2343H4kjn",
+    "name": "Brahma Chopp",
+    "harmonizing":"queijos pouco condimentados, saladas, frutos do mar e petiscos fritos",
+    "type": "American Lager",
+    "alcohol content": "4,8% vol",
+    "IBU": "10",
+    "ingredients": "água, malte, milho e lúpulo",
+     "allergens": "contém cevada e glúten"
+ },
+ {
+    "id": "J2rtd2gum67kjn",
+    "name": "Antarctica",
+    "harmonizing":"castanhas, amendoins, aves e carne grelhada ",
+    "type": "American Lager",
+    "alcohol content": "4,7% vol",
+    "IBU": "9",
+    "ingredients": "água, malte, milho e lúpulo",
+     "allergens": "contém cevada e glúten"
+ },
+ 
+ {
+    "id": "E534324khun",
+    "name": "Corona",
+    "harmonizing":"bolinhos de bacalhau, ostras temperadas ou camarões fritos",
+    "type": "American Lager",
+    "alcohol content": "4,6% vol",
+    "IBU": "18",
+    "ingredients": "água, malte, arroz e lúpulo",
+     "allergens": "contém cevada e glúten"
+ },
+
+ {
+    "id": "N23432tdjnK",
+    "name": "Colorado Ribeirão Lager",
+    "harmonizing":"peixes grelhados, saladas e camarão alho e óleo",
+    "type": "American Lager",
+    "alcohol content": "4,5% vol",
+    "IBU": "20",
+    "ingredients": "água, malte de cevada, lúpulo e extrato de casca de laranja",
+     "allergens": "contém cevada e glúten. Pode conter trigo"
+ },
+
+ {
+    "id": "C234824kvfgU",
+    "name": "Antarctica Original",
+    "harmonizing":"calabresa frita e mandioca",
+    "type": "American Lager",
+    "alcohol content": "4,9% vol",
+    "IBU": "9.5",
+    "ingredients": "água, malte, milho e lúpulo",
+     "allergens": "contém cevada e glúten"
+ },
+
+ {
+    "id": "B23f324kKL8",
+    "name": "Skol",
+    "harmonizing":"saladas, camarão e mariscos",
+    "type": "Pilsen",
+    "alcohol content": "4,6% vol",
+    "IBU": "8",
+    "ingredients": "água, malte, milho e lúpulo",
+     "allergens": "contém cevada e glúten"
+ },
+
+ {
+    "id": "XFtf4324cLn",
+    "name": "Brahma Malzbier",
+    "harmonizing":"torta de chocolate e sorvete de creme",
+    "type": "American Pale Lager",
+    "alcohol content": "3,8% vol",
+    "IBU": "8.5",
+    "ingredients": "água, malte, milho, açúcar de cana, lúpulo e corante caramelo III INS 150c",
+     "allergens": "contém cevada e glúten"
+ },
+
+ {
+    "id": "D236924VOtn",
+    "name": "Goose Island IPA",
+    "harmonizing":"carnes vermelhas e queijos azuis",
+    "type": "India Pale Ale",
+    "alcohol content": "5,9% vol",
+    "IBU": "55",
+    "ingredients": "água, malte e lúpulo",
+     "allergens": "contém cevada e glúten. Pode conter trigo."
+ },
+
+ {
+    "id": "O284374vcb",
+    "name": "Colorado Rosália",
+    "harmonizing":"sobremesas a base de creme e chocolate branco",
+    "type": "Fruit Beer",
+    "alcohol content": "4,5% vol",
+    "IBU": "10",
+    "ingredients": "água, malte de cevada, extrato aromático de hibisco, suco de amora do mato, suco de cambuci, suco de cereja-do-rio-grande, suco de grumixama, lúpulo e fermento",
+     "allergens": "contém cevada e glúten. Pode conter trigo"
+ },
+
+ 
+ {
+    "id": "Xui4324kpl",
+    "name": "Hoegaarden Wit Blanche",
+    "harmonizing":"peixes, frango grelhado, ceviche e feijoada",
+    "type": "Witbier",
+    "alcohol content": "4,9% vol",
+    "IBU": "13",
+    "ingredients": "água, malte de cevada, trigo, xarope de glicose, levedura, lúpulo, especiarias, sementes de coentro, casca de laranja natural, acidificante: ácido cítrico",
+     "allergens": "contém cevada, trigo e glúten"
+ },
+
+ {
+    "id": "TYc4394kpl",
+    "name": "Stella Artois",
+    "harmonizing":"bife, picanha e frutos do mar",
+    "type": "Premium American Lager",
+    "alcohol content": "5% vol",
+    "IBU": "16",
+    "ingredients": "água, malte e lúpulo",
+     "allergens": "contém cevada e glúten"
+ },
+
+ {
+    "id": "HGc43F4kpc",
+    "name": "Serramalte",
+    "harmonizing":"queijo parmesão",
+    "type": "Premium American Lager",
+    "alcohol content": "5,5% vol",
+    "IBU": "19.5",
+    "ingredients": "água, malte e lúpulo",
+     "allergens": "contém cevada e glúten"
+ },
+
+ {
+    "id": "OGc43F4wpc",
+    "name": "Brahma Duplo Malte",
+    "harmonizing":"amendoim, croquete de carne e batata frita",
+    "type": "Premium American Lager",
+    "alcohol content": "4,7% vol",
+    "IBU": "11",
+    "ingredients": "água, malte e lúpulo",
+    "allergens": "contém cevada e glúten"
+ },
+
+ {
+    "id": "UTGc43F4zpc",
+    "name": "Black Princess Miss Blonde",
+    "harmonizing":"amendoim, batata frita e frango frito",
+    "type": "Blonde Ale",
+    "alcohol content": "5,2% vol",
+    "IBU": "22",
+    "ingredients": "água, malte de cevada, malte de trigo e lúpulo",
+    "allergens": "contém cevada e glúten"
+ }
+   
+   
+
+
+
+
+
+]
