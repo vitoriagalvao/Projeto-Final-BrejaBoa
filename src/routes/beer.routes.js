@@ -8,7 +8,7 @@ res.status(200).send({"Mensagem": "oi, tô aqui"})
 })
 
 
-router.get('/beer', controller.getAll)
+router.get('/', controller.getAll)
 
 //Rota que recebe um novo item, adiciona ele a lista do cardapio
 router.post('/newbeer/create', controller.createBeer)
