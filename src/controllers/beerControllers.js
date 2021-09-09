@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const Estudio = require('PROJETO_FINAL_REPROGRAMA/src/models/beer')
+const Estudio = require('../models/beer')
 
 const getAll = async (req, res) => {
   const beers = await Beer.find()
