@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const controller = require('PROJETO_FINAL_REPROGRAMA/src/controllers/beerControllers')
+const controller = require('../controllers/beerControllers')
 
 
 router.get('/beer/all', controller.getAll)
