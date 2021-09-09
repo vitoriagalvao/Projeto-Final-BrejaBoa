@@ -3,7 +3,7 @@ const router = express.Router()
 const controller = require('../controllers/beerControllers')
 
 
-router.get('/beer/all', controller.getAll)
+router.get('/beer', controller.getAll)
 
 //Rota que recebe um novo item, adiciona ele a lista do cardapio
 router.post('/newbeer/create', controller.createBeer)

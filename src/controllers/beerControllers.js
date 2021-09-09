@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const Estudio = require('../models/beer')
+const Beer = require('../models/beer')
 
 const getAll = async (req, res) => {
   const beers = await Beer.find()
@@ -27,23 +27,23 @@ const createBeer = async (req, res) => {
 const updateBeer = async(req, res) => {
   
   try {
-    //Tenta encontrar um estudio pelo id
+
     const beer = await Beer.findById(req.params.id)
-    //Se você não encontrar me retorne o erro
+    
     if (beer == null) {
-      return res.status(404).json({message: "estudio não encontrado"})
+      return res.status(404).json({message: "cerveja não encontrada"})
     }
-    //No corpo da requisição tem algo digitado, considere o que tiver digitado como minha alteração
+   
     if (req.body.nome != null) {
      beer.nome = req.body.nome
     }
-    //Já salvou?
+   
     const beerAtualizado = await beer.save()
-    //Retornando o documento atualizado com o código de sucesso
+    
     res.status(200).json(beerAtualizado)
 
   } catch (err) {
-    //Se houve qulquer erro acima, mostre qual erro foi esse 
+  
     res.status(500).json({message: err.message})
   }
 }
