@@ -6,11 +6,7 @@ const beerSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  criadoEm: {
-    type: Date,
-    required: true,
-    default: new Date
-  }
+  
 })
 
 module.exports = mongoose.model('beer', beerSchema)

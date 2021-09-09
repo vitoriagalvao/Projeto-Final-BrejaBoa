@@ -10,7 +10,7 @@ const createBeer = async (req, res) => {
   const beer = new Beer({
     _id: new mongoose.Types.ObjectId(),
     nome: req.body.nome,
-    criadoEm: req.body.criadoEm,
+    //criadoEm: req.body.criadoEm,
   })
   const beerJaExiste = await Beer.findOne({nome: req.body.nome})
   if (beerJaExiste) {
