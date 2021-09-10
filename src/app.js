@@ -12,7 +12,8 @@ db.connect()
 const beerRoutes = require("./routes/beer.routes")
 app.use("/beer", beerRoutes)
 
-
+const foodRoutes = require("./routes/food.routes")
+app.use("/food", foodRoutes)
 
 
 

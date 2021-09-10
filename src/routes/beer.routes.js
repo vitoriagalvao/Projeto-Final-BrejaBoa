@@ -7,22 +7,28 @@ res.status(200).send({"Mensagem": "oi, tô aqui"})
 
 })
 
-//rota que mostra todas as cervejas do cardapio
+//rota que mostra todas as cervejas do cardapio OK
 router.get('/', controller.getAll)
 
-//Rota que recebe um novo item, adiciona ele a lista do cardapio
+//Rota que retorna o tipo da cerveja e mais detalhes sobre a fabricação, fazendo a requisição pelo id.
+router.get('/:id', controller.byIdBeer)
+
+//Rota que mostra a cerveja de acordo com a comida requerida
+//router.get('/comida', controller.byFood)
+
+//Rota que recebe um novo item, adiciona ele a lista do cardapio OK
 router.post('/newbeer/create', controller.createBeer)
 
-//Rota que edita o valor do item na lista.
+//Rota que edita o valor do item na lista OK
 router.patch('/updateValue/:id', controller.updateBeer)
 
-//Rota que atualiza a cerveja no catalogo.
-//router.put('/update/:id/', controller.update)
-
-//Rota que retorna o tipo da cerveja e mais detalhes sobre a fabricação, fazendo a requisição pelo id.
-//router.get('/beer/:id', controller.getallId)
-
 //Rota que deleta um item da lista, baseado em seu id.
-//router.delete('/:id', controller. deleteBeer)
+router.delete('/delete/:id', controller. deleteBeer)
+
+
+
+
+
+
 
 module.exports = router

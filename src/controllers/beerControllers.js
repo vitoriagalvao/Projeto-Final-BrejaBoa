@@ -1,9 +1,32 @@
 const mongoose = require('mongoose')
+const beer = require('../models/beer')
 const Beer = require('../models/beer')
 
 const getAll = async (req, res) => {
   const beers = await Beer.find()
   res.json(beers)
+}
+
+
+
+const byIdBeer = async(req, res) => {
+  
+  try {
+
+    const idBeer = await Beer.findById(req.params.id)
+    
+    if (idBeer == null) {
+      return res.status(404).json({message: "ID não encontrado"})
+    }
+   
+    res.json(idBeer)
+    
+
+  } catch (err) {
+  
+    res.status(500).json({message: err.message})
+  }
+
 }
 
 const createBeer = async (req, res) => {
@@ -53,10 +76,31 @@ const updateBeer = async(req, res) => {
   
     res.status(500).json({message: err.message})
   }
+
+}
+  
+   const deleteBeer = async (req, res) => {
+    try{
+        const ber = await Beer.findById(req.params.id)
+        if(ber == null){
+            return res.status(404).json({message: "ID não encontrada"})
+        }
+
+        ber.remove()
+        res.status(200).json({message: "Cerveja deletada."}) 
+
+    } catch (err){
+        res.status(500).json({message: message.err})
+    }   
 }
 
 module.exports = {
   getAll,
  createBeer,
-  updateBeer
-}
+  updateBeer,
+  deleteBeer,
+  byIdBeer,
+  
+  }
+ 
+   
