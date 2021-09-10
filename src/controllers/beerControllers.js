@@ -18,11 +18,8 @@ const createBeer = async (req, res) => {
     allergens: req.body.allergens,
     valuebeer: req.body.valuebeer,
     size: req.body.size,
-
-
- 
-  })
-  const beerJaExiste = await Beer.findOne({nome: req.body.nome})
+})
+  const beerJaExiste = await Beer.findOne({name: req.body.name})
   if (beerJaExiste) {
     return res.status(409).json({error: 'Cerveja já cadastrada.'})
   }
