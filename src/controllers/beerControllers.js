@@ -9,8 +9,18 @@ const getAll = async (req, res) => {
 const createBeer = async (req, res) => {
   const beer = new Beer({
     _id: new mongoose.Types.ObjectId(),
-    nome: req.body.nome,
-    //criadoEm: req.body.criadoEm,
+    nome: req.body.name,
+    harmonizing: req.body.harmonizing,
+    type: req.body.type,
+    alcoholcontent: req.body.alcoholcontent,
+    IBU:req.body.IBU,
+    ingredients: req.body.ingredients,
+    allergens: req.body.allergens,
+    valuebeer: req.body.valuebeer,
+    size: req.body.size,
+
+
+ 
   })
   const beerJaExiste = await Beer.findOne({nome: req.body.nome})
   if (beerJaExiste) {
@@ -34,13 +44,13 @@ const updateBeer = async(req, res) => {
       return res.status(404).json({message: "cerveja não encontrada"})
     }
    
-    if (req.body.nome != null) {
-     beer.nome = req.body.nome
+    if (req.body.valuebeer != null) {
+     beer.valuebeer = req.body.valuebeer
     }
    
-    const beerAtualizado = await beer.save()
+    const beerUpdate = await beer.save()
     
-    res.status(200).json(beerAtualizado)
+    res.status(200).json(beerUpdate)
 
   } catch (err) {
   
