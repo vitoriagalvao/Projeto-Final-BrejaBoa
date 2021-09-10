@@ -9,7 +9,7 @@ const getAll = async (req, res) => {
 const createBeer = async (req, res) => {
   const beer = new Beer({
     _id: new mongoose.Types.ObjectId(),
-    nome: req.body.name,
+    name: req.body.name,
     harmonizing: req.body.harmonizing,
     type: req.body.type,
     alcoholcontent: req.body.alcoholcontent,
