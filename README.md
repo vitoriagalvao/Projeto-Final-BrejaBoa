@@ -17,7 +17,7 @@ No delivery da Cervejaria BrejaBoa é possivel veriifcar os itens disponiveis, p
 - deletar uma cerveja do cardapio <br />
 - deletar a história vinculada a cerveja <br />
 
-Para o futuro<br />
+### Para o futuro<br />
 ![Alt Text](https://acegif.com/wp-content/gif/beer-2151.gif)
 
 - listar cervejas que combinam com o alimento que foi requisitado <br />
