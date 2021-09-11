@@ -4,7 +4,7 @@ const Beer = require('../models/beer')
 
 
 const getAll = async (req, res) => {
-  const beers = await Beer.find()
+  const beers = await Beer.find().populate('story')
   res.json(beers)
 }
 
@@ -41,6 +41,8 @@ const createBeer = async (req, res) => {
     allergens: req.body.allergens,
     valuebeer: req.body.valuebeer,
     size: req.body.size,
+    story: req.body.story
+
 })
   const beerJaExiste = await Beer.findOne({name: req.body.name})
   if (beerJaExiste) {

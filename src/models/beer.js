@@ -38,7 +38,9 @@ const beerSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-
+   story: {
+    type: mongoose.Schema.Types.ObjectId, required: true, ref: 'history'
+   }
 })
 
 module.exports = mongoose.model('beer', beerSchema)
