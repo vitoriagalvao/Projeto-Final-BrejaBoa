@@ -1,6 +1,8 @@
 ### Projeto Final
 
-## Bem vinda ao BrejaBoa
+## Bem vinda ao BrejaBoa 
+![Alt Text](https://media2.giphy.com/media/mxmvguSsjmfhvNTeDK/giphy.gif?cid=ecf05e47ycvawqpt3ozi52vryraenskd7adyyactp7wnupls&rid=giphy.gif)
+
 No delivery da Cervejaria BrejaBoa é possivel veriifcar os itens disponiveis, precificação e ainda conhecer sobre a história de cada cerveja antes que ela chegue na sua casa, tudo isso nessa API, tá esperando o quê? Vem ver! <br />
 
 ### Demandas de negocio
@@ -16,7 +18,7 @@ No delivery da Cervejaria BrejaBoa é possivel veriifcar os itens disponiveis, p
 - deletar a história vinculada a cerveja <br />
 
 Para o futuro<br />
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![Alt Text](https:https://media1.giphy.com/media/Me8DB7tgSJegbTx0ST/giphy.gif?cid=ecf05e47ycvawqpt3ozi52vryraenskd7adyyactp7wnupls&rid=giphy.gif)
 
 - listar cervejas que combinam com o alimento que foi requisitado <br />
 - Listar um capo de avaliação para as harmnizações sugeridas <br />
