@@ -1,7 +1,7 @@
 ### Projeto Final
 
 ## Bem vinda ao BrejaBoa
-![Alt Text](https://acegif.com/wp-content/gif/beer-12.gif)
+![Alt Text](https://acegif.com/wp-content/gif/beer-77.gif)
 
 No delivery da Cervejaria BrejaBoa é possivel veriifcar os itens disponiveis, precificação e ainda conhecer sobre a história de cada cerveja antes que ela chegue na sua casa, tudo isso nessa API, tá esperando o quê? Vem ver! <br />
 
@@ -18,7 +18,7 @@ No delivery da Cervejaria BrejaBoa é possivel veriifcar os itens disponiveis, p
 - deletar a história vinculada a cerveja <br />
 
 ### Para o futuro<br />
-![Alt Text](https://acegif.com/wp-content/gif/beer-18.gif)
+![Alt Text](https://acegif.com/wp-content/gif/beer-2151.gif)
 
 - listar cervejas que combinam com o alimento que foi requisitado <br />
 - Listar um capo de avaliação para as harmnizações sugeridas <br />
