@@ -23,3 +23,40 @@ No delivery da Cervejaria BrejaBoa é possivel observar os itens disponiveis, pr
 - listar cervejas que combinam com o alimento que foi requisitado <br />
 - Listar um campo de avaliação para as harmonizações sugeridas <br />
 - Listar um ranking com as melhores harmonizações de acordo com as avaliações <br />
+
+
+
+### Arquitetura usada na API <br />
+...
+
+ 📁 Comunica
+   |
+   |-  📁 src
+   |    |
+   |    |- 📁 data
+   |         |- 📄 database.js
+   |
+   |    |- 📁 controllers
+   |         |- 📄 beerController.js
+   |         |- 📄 historyControllers.js
+   |   
+   |
+   |    |- 📁 models
+   |         |- 📄 beer.js
+   |         |- 📄 history.js
+   |      
+   |
+   |    |- 📁 routes
+   |         |- 📄 beer.js 
+   |         |- 📄 history.router.js
+   |  
+   |
+   |
+   |- 📄 .env
+   |- 📄 .env.example
+   |- 📄 .gitignore
+   |- 📄 package
+   |- 📄 procfile
+   |- 📄 server.js
+
+   ....
