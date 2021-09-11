@@ -22,7 +22,7 @@ const historySchema = new mongoose.Schema({
   },
 
   story: {
-    type: mongoose.Schema.Types.ObjectId, required: true, ref: 'history'
+    type: mongoose.Schema.Types.ObjectId, required: true, ref: 'beer'
    }
 
 
