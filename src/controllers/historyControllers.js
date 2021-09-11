@@ -3,6 +3,7 @@ const History = require('../models/history')
    
 const getAll = async (req, res) => {
     const historyAll = await History.find()
+    res.json(historyAll)
 }
 
 const createHistory = async (req, res) => {
