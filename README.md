@@ -27,7 +27,7 @@ No delivery da Cervejaria BrejaBoa é possivel observar os itens disponiveis, pr
 
 
 ### Arquitetura usada na API <br />
-...
+````
 
  📁 Comunica
    |
@@ -59,4 +59,4 @@ No delivery da Cervejaria BrejaBoa é possivel observar os itens disponiveis, pr
    |- 📄 procfile
    |- 📄 server.js
 
-   ...
+ ```
