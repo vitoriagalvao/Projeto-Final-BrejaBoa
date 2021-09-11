@@ -3,7 +3,7 @@
 ## Bem vinda ao BrejaBoa
 ![Alt Text](https://acegif.com/wp-content/gif/beer-77.gif)
 
-No delivery da Cervejaria BrejaBoa é possivel veriifcar os itens disponiveis, precificação e ainda conhecer sobre a história de cada cerveja antes que ela chegue na sua casa, tudo isso nessa API, tá esperando o quê? Vem ver! <br />
+No delivery da Cervejaria BrejaBoa é possivel observar os itens disponiveis, precificação e ainda conhecer sobre a história de cada cerveja antes que ela chegue na sua casa, tudo isso nessa API, tá esperando o quê? Vem ver! <br />
 
 ### Demandas de negocio
 - listar todas as cervejas <br />
