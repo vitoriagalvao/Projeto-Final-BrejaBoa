@@ -14,7 +14,7 @@ router.get('/', controller.getAll)
 router.get('/:id', controller.byIdBeer)
 
 //Rota que mostra a cerveja de acordo com a comida requerida
-//router.get('/comida', controller.byFood)
+router.get('/comida', controller.foodId)
 
 //Rota que recebe um novo item, adiciona ele a lista do cardapio OK
 router.post('/newbeer/create', controller.createBeer)

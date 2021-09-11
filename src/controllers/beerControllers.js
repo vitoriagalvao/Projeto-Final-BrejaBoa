@@ -1,6 +1,7 @@
 const mongoose = require('mongoose')
 const beer = require('../models/beer')
 const Beer = require('../models/beer')
+const Food = require('../models/food')
 
 const getAll = async (req, res) => {
   const beers = await Beer.find()
@@ -8,6 +9,23 @@ const getAll = async (req, res) => {
 }
 
 
+const foodId = async(req, res) =>{
+
+  try {
+const requestIdBeer = req.params.harmonizing
+    const foodPar= await Beer.findOne({ _id: requestIdBeer })
+    const foodRequested= await Food.find({ name: foodPar.harmonizing})
+
+    res.status(200).send({'Food': foodRequested})
+    } 
+
+   
+
+catch (err) {
+  res.status(500).json({message: err.message})
+}
+
+}
 
 const byIdBeer = async(req, res) => {
   
@@ -94,13 +112,15 @@ const updateBeer = async(req, res) => {
     }   
 }
 
+
+
 module.exports = {
   getAll,
  createBeer,
   updateBeer,
   deleteBeer,
   byIdBeer,
-  
+  foodId
   }
- 
+
    
