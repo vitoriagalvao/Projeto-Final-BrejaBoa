@@ -8,7 +8,7 @@ const createUser  = async (req, res) => {
     const user = new Usuaria({
       _id: new mongoose.Types.ObjectId(),
       name: req.body.name,
-      email: req.body.email.email,
+      email: req.body.email,
       senha:req.body.senha,
       idade: req.body.idade
       
