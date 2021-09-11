@@ -21,5 +21,5 @@ No delivery da Cervejaria BrejaBoa é possivel observar os itens disponiveis, pr
 ![Alt Text](https://acegif.com/wp-content/gif/beer-2151.gif)
 
 - listar cervejas que combinam com o alimento que foi requisitado <br />
-- Listar um capo de avaliação para as harmnizações sugeridas <br />
-- Listar um rancking com as melhores harmonizações de acordo com as avaliações <br />
+- Listar um campo de avaliação para as harmonizações sugeridas <br />
+- Listar um ranking com as melhores harmonizações de acordo com as avaliações <br />
