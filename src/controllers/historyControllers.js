@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 const History = require('../models/history')
    
 const getAll = async (req, res) => {
-    const historyAll = await History.find()
+    const historyAll = await History.find().populate('story')
     res.json(historyAll)
 }
 
@@ -11,8 +11,8 @@ const createHistory = async (req, res) => {
       _id: new mongoose.Types.ObjectId(),
       name: req.body.name,
       year: req.body.year,
-      history: req.body.history
-     
+      history: req.body.history,
+      story: req.body.story
   })
     const historyJaExiste = await History.findOne({name: req.body.name})
     if (historyJaExiste) {
